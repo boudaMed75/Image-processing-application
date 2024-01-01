@@ -74,21 +74,7 @@ class EffectsFrame(ctk.CTkFrame):
 
         ctk.CTkEntry(self,textvariable = Effects_var['gaussien']).pack()
         ctk.CTkButton(self,text="appliquer filter goussien",command=goussein).pack()
-    # def aff(self):
-    #     self.img = self.image
-
-    #     self.img = Image.fromarray(minmax(self.img))
-
-    #     self.place_img()
-    # def median(self):
-    #     self.img = self.image
-
-
-    #     self.img = Image.fromarray(Median3(self.img))
-
-        
-
-    #     self.place()
+    
 
 
 class ExportFrame(ctk.CTkFrame):
