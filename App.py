@@ -112,22 +112,6 @@ class App(ctk.CTk):
             self.img = ImageOps.flip(self.img)
 
 
-        # les filter
-
-        # match self.Filter['minmax'].get() :
-        #     case '3X3' : self.img = Image.fromarray(minmax(self.img))
-        #     case '5X5' : self.img = Image.fromarray(minmax(self.img))
-
-        # match self.Filter['median'].get():
-        #     case '3X3' : self.img = Image.fromarray(Median3(self.img))
-        #     case '5X5' : self.img = Image.fromarray(Median5(self.img))
-
-        # match self.Filter['moyenneur'].get():
-        #     case '3X3-9' : self.img = Image.fromarray(moyenneur3(self.img,9))
-        #     case '3X3-5' : self.img = Image.fromarray(moyenneur3(self.img,5))
-        #     case '3X3-4' : self.img = Image.fromarray(moyenneur3(self.img,4))
-            
-
 
         self.place_img()
 
