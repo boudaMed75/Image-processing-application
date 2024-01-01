@@ -74,15 +74,6 @@ class App(ctk.CTk):
 
 
 
-        # self.rotate_float = ctk.DoubleVar(value=0)
-        # self.zoom_float = ctk.DoubleVar(value=0)
-        # # 1 connect the var to thyr slider 
-
-        # # 2 trace the chnage to the var
-        # self.rotate_float.trace("w",self.manipilate_image)
-        # self.zoom_float.trace("w",self.manipilate_image)
-
-
     def manipilate_image(self,*args):
         self.img = self.original_img
 
