@@ -72,12 +72,6 @@ class App(ctk.CTk):
             # print(item.get())
             item.trace("w",self.manipilate_image)
 
-        # for i in self.colors_vars.values() :
-        #     i.trace("w",self.manipilate_image)
-        # for j in self.pos_vars.values():
-        #     j.trace("w",self.manipilate_image)
-        # for k in self.Effects.values():
-        #     k.trace("w",self.manipilate_image)
 
 
         # self.rotate_float = ctk.DoubleVar(value=0)
